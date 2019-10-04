@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+body{
+    margin: 0px;
+    background-color: gray;
+    background-image: url("https://c.wallhere.com/photos/de/55/macro_diy_sewing_machine-945224.jpg!d");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+}
+.navUL {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.089);
+  }
+  
+  .navLi {
+
+    float: right;
+  }
+  
+  #left-li{
+
+      float: left;
+      padding-left: 0px;
+  }
+  
+  .navLi a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+  }
+  
+  .navLi a:hover {
+
+    background-color: #111;
+  }
+
+  #center{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 10%;
+    background: rgba(0, 0, 0, .8);
+  }
+  #h2-center{
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, .8);
+    margin: 0% 10%;
+  }
